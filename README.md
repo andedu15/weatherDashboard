@@ -20,27 +20,22 @@ Start to Planning your day and let us know how did it go!
 
 Open deployed app at https://andedu15.github.io/dayScheduler/
 
- - Click on "Start Quiz" button.
+ - You will see the current date and hour in the header of the application.
 
-![Alt text](assets/img/image.png)
+![Alt text](assets/img/image-1.png)
 
- - You will see a timer and the first question.
-
- ![Alt text](assets/img/image-1.png)
-
- - Choose your answer. After your selection, you will see the correct answer (green) and wrong answer (red).
+ - You will see the blocks with the time block.
 
  ![Alt text](assets/img/image-2.png)
 
- - If you selected a wrong asnwer, timer will subtract 10 seconds.
- - If you dont have seconds on the timer, the game will end and you will see your score.
- - You need to write your initials on the score windows.
+ - You will can write the description for each time block.
 
  ![Alt text](assets/img/image-3.png)
 
- - You will see the high score table, and you can play again to get a new score or delete the score saved.
+ - You can save your description with your time block.
 
  ![Alt text](assets/img/image-4.png)
+
 
 ## Screenshot
 
