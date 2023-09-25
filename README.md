@@ -18,7 +18,7 @@ Start to Planning your day and let us know how did it go!
 
 ## Usage
 
-Open deployed app at https://andedu15.github.io/timedQuiz/
+Open deployed app at https://andedu15.github.io/dayScheduler/
 
  - Click on "Start Quiz" button.
 
@@ -46,5 +46,5 @@ Open deployed app at https://andedu15.github.io/timedQuiz/
 
 Main card
 
-![Alt text](assets/img/image-5.png)
+![Alt text](assets/img/image.png)
 
