@@ -8,6 +8,9 @@ header{
 h1,p{
   color: #e98e06;
 }
+::placeholder{
+  color: #373738;
+}
 
 textarea {
   background: transparent;
