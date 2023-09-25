@@ -1,18 +1,20 @@
-# Timed Quiz
+# Work Day Scheduler
 
 ## Description
 
-This is the Timed Quiz app, when you can play and answer some questions about basic javascript.
+This is the Work Day Scheduler app, when you can organize all your activities, meetings,tasks,etc.. by work hour.
 
-You will have a timer with 60 seconds to answer 5 questions. If you choose a wrong answer, the timer will subtract 10 seconds and if you dont have seconds, the game will be end.
+You will have time blocks from 9am to 5pm, where you can write and save a description about your activity in each time block. In addition, this will be your digital work scheduler where you will have past hours (Red color),  current hour (Gray color) and future hours (Green color).
 
-Start to Play and let us know how is your JS knowledge!
+Start to Planning your day and let us know how did it go!
 
 ## Technologies
 
 - HTML5
 - CSS3
 - JavaScript
+- jQuery
+- Bootstrap
 
 ## Usage
 
