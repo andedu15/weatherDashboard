@@ -6,7 +6,8 @@ const localeSettings = {};
 dayjs.locale(localeSettings);
 
 $(function () {
-
+  
+  // CURRENT HOUR 
   const currentHour = dayjs().format('H');
 
   function hourlyColor() {
@@ -26,6 +27,8 @@ $(function () {
   // function? How can DOM traversal be used to get the "hour-x" id of the
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
+
+  // DESCRIPTION TO SAVE WITH SAVE BTN
 
   function description() {
     $('.saveBtn').on('click', function() {
@@ -64,6 +67,7 @@ $(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
 
+  // LOCAL STORAGE FOR EACH TIME BLOCK
   $('.time-block').each(function() {
     const key = $(this).attr('id');
     const value = localStorage.getItem(key);
@@ -73,6 +77,8 @@ $(function () {
   //
   // TODO: Add code to display the current date in the header of the page.
 
+
+  // CURRENT DATE AND CURRENT HOUR
   function currentTime() {
     const dateElement = $('#date');
     const timeElement = $('#time');
@@ -82,8 +88,6 @@ $(function () {
     timeElement.text(currentTime);
   }
 
-  
-  
   
 
   setInterval(currentTime, 1000);
