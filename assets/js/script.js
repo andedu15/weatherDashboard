@@ -12,7 +12,7 @@ $(function () {
 
   function hourlyColor() {
     $('.time-block').each(function() {
-      const blockHour = parseInt(this.id);
+      const blockHour = parseInt(this.id); //STRING TO NUMBER
       $(this).toggleClass('past', blockHour < currentHour);
       $(this).toggleClass('present', blockHour === currentHour);
       $(this).toggleClass('future', blockHour > currentHour);
@@ -29,7 +29,6 @@ $(function () {
   // useful when saving the description in local storage?
 
   // DESCRIPTION TO SAVE WITH SAVE BTN
-
   function description() {
     $('.saveBtn').on('click', function() {
       const key = $(this).parent().attr('id');
@@ -49,7 +48,7 @@ $(function () {
 
   function currentColor() {
     $('.time-block').each(function() {
-      const blockHour = parseInt(this.id);
+      const blockHour = parseInt(this.id); //STRING TO NUMBER
       if (blockHour == currentHour) {
         $(this).removeClass('past future').addClass('present');
       } else if (blockHour < currentHour) {
@@ -88,8 +87,7 @@ $(function () {
     timeElement.text(currentTime);
   }
 
-  
-
+  // CURRENT TIME ONCE PER SECOND
   setInterval(currentTime, 1000);
 });
 
