@@ -5,7 +5,7 @@ body {
 header{
   background-color: #373738;
 }
-h1,p{
+h1,h2,p{
   color: #e98e06;
 }
 ::placeholder{
