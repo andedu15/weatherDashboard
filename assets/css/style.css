@@ -24,6 +24,16 @@ h1,h2,p{
   display: flex;
   flex-direction: column;
 }
+.input_text{
+  border-radius: 5px;
+}
+.submit{
+  background-color: #e98e06;
+  color: #373738;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
 button{
   background-color: #373738;
   color: #e98e06;
