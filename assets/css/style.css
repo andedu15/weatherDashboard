@@ -34,12 +34,21 @@ h1,h2,p{
   text-align: center;
   margin: 10px;
 }
+.submit:hover{
+  background-color: #373738;
+  color: #e98e06;
+}
 button{
   background-color: #373738;
   color: #e98e06;
   border-radius: 5px;
   text-align: center;
   margin: 10px;
+  width: 200px;
+}
+button:hover{
+  background-color: #e98e06;
+  color: #373738;
 }
 .aside{
   display: flex;

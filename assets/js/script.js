@@ -43,7 +43,7 @@ function currentWeather(){
         // SHOW HISTORY
         var list = document.createElement('button');
         list.appendChild(document.createTextNode(history));
-        document.querySelector('ul').appendChild(list);
+        document.querySelector('.history').appendChild(list);
 
 
   
