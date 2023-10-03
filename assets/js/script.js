@@ -1,3 +1,5 @@
+// GLOBAL VARIABLES
+
 var input = document.querySelector('.input_text');
 var city = document.querySelector('#name');
 var temp = document.querySelector('.temp');
@@ -8,7 +10,7 @@ var date = document.querySelector('.date');
 
 
 
-button.addEventListener('click', currentWeather)
+button.addEventListener('click', currentWeather); // SEARCH BUTTON
 
 // CURRENT WEATHER
 function currentWeather(){
@@ -57,12 +59,15 @@ function currentWeather(){
 .catch(err => alert("Wrong city name!"));
 }
 
+// CONVERT FROM KELVIN TO FAHRENHEIT
 function toFahrenheit(tempValue){
     var fahrenheit = Math.trunc((tempValue-273)*(9/5)+32);
     return fahrenheit
 }
 
 console.log(history);
+
+// FORECAST WEATHER
 
 function forecastWeather(){
 
