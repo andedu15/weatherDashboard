@@ -17,10 +17,20 @@ You will get the date, current temperature, speed wind, humidity percentage.
 
 ## Usage
 
+- Write the city you need to know the weather.
 
+- Hit Search button.
+
+- You will see the result of your city in a square.
+
+- You can write anothers cities
+
+- You will have your search history
 
 
 ## Screenshot
+
+- Main card
 
 
 
