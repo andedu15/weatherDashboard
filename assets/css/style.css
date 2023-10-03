@@ -19,5 +19,21 @@ h1,h2,p{
 .card{
   margin: 20px;
 }
+.history{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+button{
+  background-color: #373738;
+  color: #e98e06;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
+.aside{
+  display: flex;
+  flex-direction: column;
+}
 
 
