@@ -27,7 +27,7 @@ You will get the date, current temperature, speed wind, humidity percentage.
 
 - Hit Search button.
 
-![Alt text](assets/img/image3.png)
+![Alt text](assets/img/image3.png.png)
 
 - You will see the result of your city in a square (temp, wind, humidity).
 
