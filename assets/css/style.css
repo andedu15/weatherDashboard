@@ -37,6 +37,7 @@ h1,h2,p{
 .submit:hover{
   background-color: #373738;
   color: #e98e06;
+  transition: 1s;
 }
 button{
   background-color: #373738;
@@ -49,6 +50,7 @@ button{
 button:hover{
   background-color: #e98e06;
   color: #373738;
+  transition: 1s;
 }
 .aside{
   display: flex;
