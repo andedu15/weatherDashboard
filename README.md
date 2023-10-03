@@ -17,11 +17,13 @@ You will get the date, current temperature, speed wind, humidity percentage.
 
 ## Usage
 
+- Open deployed application: https://andedu15.github.io/weatherDashboard/
+
 - Write the city you need to know the weather.
 
 - Hit Search button.
 
-- You will see the result of your city in a square.
+- You will see the result of your city in a square (temp, wind, humidity).
 
 - You can write anothers cities
 
